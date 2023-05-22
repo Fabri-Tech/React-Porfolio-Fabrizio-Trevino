@@ -65,16 +65,17 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>
             <a className='flex justify-between items-center w-full text-gray-300' href='mailto:fabriziotrevino@gmail.com'>
-              Email <HiOutlineMail size={30} />
+                Email <HiOutlineMail size={30} />
             </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+            </li>
+         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-l from-green-300 via-blue-500 to-purple-600'>
             <a className='flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/document/d/15RaxBEPKH8EpMISYcWoQTrOgUGkfA4r0UntxePxAxzE/edit?usp=sharing'>
-              Resume <BsFillPersonLinesFill size={30} />
+                Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+            </li>
+
         </ul>
       </div>
     </div>
