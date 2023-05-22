@@ -12,12 +12,15 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   // Function to toggle mobile menu
-  const handleClick = () => setNav(!nav);
+  const handleToggleMenu = () => setNav(!nav);
+
+  // Function to close mobile menu
+  const handleCloseMenu = () => setNav(false);
 
   // Define common link component for reusability
   const NavLink = ({ to, children }) => (
     <li>
-      <Link onClick={handleClick} to={to} smooth={true} duration={500}>
+      <Link onClick={handleCloseMenu} to={to} smooth={true} duration={500}>
         {children}
       </Link>
     </li>
@@ -39,7 +42,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu toggle button */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleToggleMenu} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -75,7 +78,6 @@ const Navbar = () => {
                 Resume <BsFillPersonLinesFill size={30} />
             </a>
             </li>
-
         </ul>
       </div>
     </div>
