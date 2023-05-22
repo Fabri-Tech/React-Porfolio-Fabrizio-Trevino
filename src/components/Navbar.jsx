@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
         <NavLink to='home'>Home</NavLink>
         <NavLink to='about'>About</NavLink>
         <NavLink to='skills'>Skills</NavLink>
