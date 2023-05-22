@@ -5,18 +5,23 @@ Author:
 - Github: [Fabri-Tech](https://github.com/Fabri-Tech)
 - Mail: fabriziotrevino@gmail.com
 
+## Table of Contents
+- [Information](#information)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Mock-Up](#mock-up)
+- [Installation](#installation)
+- [License](#license)
+
 ## Information
 
 This portfolio is for Module 20 Challenge, a part of a web development course. The challenge focuses on creating a React portfolio to showcase the skills and projects of a web developer.
 
+## User Story
 
-### User Story
+As an employer looking for candidates with experience building single-page applications, I want to view a potential employee's deployed React portfolio of work samples, so that I can assess whether they're a good candidate for an open position.
 
-As an employer looking for candidates with experience building single-page applications,
-I want to view a potential employee's deployed React portfolio of work samples,
-so that I can assess whether they're a good candidate for an open position.
-
-### Acceptance Criteria
+## Acceptance Criteria
 
 - When I load the portfolio, I am presented with a page containing a header, a section for content, and a footer.
 - When I view the header, I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
@@ -33,7 +38,7 @@ so that I can assess whether they're a good candidate for an open position.
 
 ## Mock-Up
 
-[Mock-Up](./src/assets/Mockup.png)
+![Mock-Up](./src/assets/Mockup.png)
 
 ## Installation
 
