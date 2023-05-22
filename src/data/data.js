@@ -7,15 +7,15 @@ export const data = [
     id: 1,
     name: 'Bootcamp project 1',
     image: Project1,
-    github: '',
-    live: '',
+    github: 'https://github.com/Drums180/Burguer_Base',
+    live: 'https://github.com/Drums180/Burguer_Base',
   },
   {
     id: 2,
     name: 'Bootcamp project 2',
     image: Project2,
-    github: '',
-    live: '',
+    github: 'https://github.com/Drums180/AirCast-Team2',
+    live: 'https://github.com/Drums180/AirCast-Team2',
   },
 
   {
